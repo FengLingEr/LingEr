@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+body {
+
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(200deg,#b1f4cf,#9890e3);
+}
+
+header {
+    width: 1000px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #9890e3;
+}
+
+header .logo {
+    width: 100px;
+    height: 50px;
+    float: left;
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: circle 10s infinite linear;
+}
+header .header-right {
+    width: 520px;
+    height: 100px;
+    float: right;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header .header-right li {
+    float: left;
+    margin: 25px;
+    font-size: 30px;
+    list-style: none;
+}
+li {
+    position: relative;
+    z-index: 1;
+}
+
+section {
+    width: 1000px;
+    height: 600px;
+    margin:  20px auto;
+}
+.centent .left {
+    width: 300px;
+    height: 600px;
+    background-color: cyan;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+.centent .right {
+    width: 640px;
+    height: 480px;
+    float: right;
+    margin-top: 0;
+    border-radius: 5%;
+    background-color: darkorange;
+}
+.centent .box1 {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    float: right;
+    border-radius: 20px;
+}
+.centent .box2 {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    float: right;
+    border-radius: 20px;
+}
+.centent .box3 {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    float: right;
+    border-radius: 20px;
+}
+.centent .box4 {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    float: right;
+    border-radius: 20px;
+}
+
+footer {
+    width: 1000px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: darkkhaki;
+}
+
+footer .wenzi {
+    font-size: 70px;
+    color: rgb(13, 255, 215);
+}
+
+.bizi {
+    width: 1000px;
+    height: 622px;
+    margin: auto;
+    background-color: cadetblue;
+}
